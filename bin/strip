@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
-# mkdir tmp/docs
-mv tmp/bootstrap-4-dev/docs/4.* tmp/docs
+cd tmp/bootstrap-4-dev
+  sudo bundle install
+  jekyll build
+cd ../..
+
+mv tmp/bootstrap-4-dev/_gh_pages/docs/4.1 tmp/docs
 rm tmp/v4-dev.zip
 rm -fr tmp/bootstrap-4-dev

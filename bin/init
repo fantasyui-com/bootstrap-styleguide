@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
+sudo gem install bundler jekyll
+
 sh bin/clean
 sh bin/refresh
