@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-styleguide",
+  "version": "1.0.0",
+  "description": "Bootstrap Styleguide generator. Create bootstrap style guides by scraping documentation. [CLI, Bootstrap, Bootstrap Analysis]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasyui-com/bootstrap-styleguide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fantasyui-com/bootstrap-styleguide/issues"
+  },
+  "homepage": "https://github.com/fantasyui-com/bootstrap-styleguide#readme",
+  "dependencies": {
+    "commander": "^2.15.1"
+  }
+}

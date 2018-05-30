@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+sh bin/clean
+sh bin/refresh

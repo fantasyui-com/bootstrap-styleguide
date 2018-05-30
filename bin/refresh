@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+mkdir tmp
+
+if [ -f v4-dev.zip ]; then
+  cp v4-dev.zip tmp/v4-dev.zip
+else
+  curl -L https://github.com/twbs/bootstrap/archive/v4-dev.zip > tmp/v4-dev.zip
+fi
+
+cd tmp;
+  unzip v4-dev.zip
+cd ..;
+
+sh bin/strip
