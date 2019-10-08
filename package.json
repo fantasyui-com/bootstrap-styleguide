@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/fantasyui-com/bootstrap-styleguide#readme",
   "dependencies": {
-    "commander": "^2.15.1"
+    "commander": "^2.20.1"
   }
 }
